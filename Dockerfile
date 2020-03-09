@@ -166,6 +166,7 @@ RUN cd /opt                                                                     
     git clone https://github.com/willixix/naglio-plugins.git     WL-Nagios-Plugins  && \
     git clone https://github.com/JasonRivers/nagios-plugins.git  JR-Nagios-Plugins  && \
     git clone https://github.com/justintime/nagios-plugins.git   JE-Nagios-Plugins  && \
+    git clone https://github.com/matteocorti/check_ssl_cert.git check-ssl && \
     git clone https://github.com/nagiosenterprises/check_mssql_collection.git   nagios-mssql  && \
     chmod +x /opt/WL-Nagios-Plugins/check*                                          && \
     chmod +x /opt/JE-Nagios-Plugins/check_mem/check_mem.pl                          && \
