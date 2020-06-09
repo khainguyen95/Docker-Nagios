@@ -70,7 +70,7 @@ RUN echo postfix postfix/main_mailer_type string "'Internet Site'" | debconf-set
         php-cli                             \
         php-gd                              \
         postfix                             \
-        python-pip                          \
+        python3-pip                          \
         rsyslog                             \
         runit                               \
         smbclient                           \
@@ -78,7 +78,7 @@ RUN echo postfix postfix/main_mailer_type string "'Internet Site'" | debconf-set
         snmpd                               \
         snmp-mibs-downloader                \
         unzip                               \
-        python                              \
+        python3                              \
                                                 && \
     apt-get clean && rm -Rf /var/lib/apt/lists/*
 
